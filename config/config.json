@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "linh",
+    "password": "123",
+    "database": "linhdb",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres",
+    "schema": "vue",
+    "logging": false
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "linhdb",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "linhdb",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
+

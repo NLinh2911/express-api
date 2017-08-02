@@ -1,0 +1,25 @@
+{
+  "name": "server-api",
+  "version": "1.0.0",
+  "description": "demo api server for vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "vue",
+    "express",
+    "nginx"
+  ],
+  "author": "Linh Ngo",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "pg-monitor": "^0.8.2",
+    "pg-promise": "^6.3.6",
+    "socket.io": "^2.0.3"
+  }
+}

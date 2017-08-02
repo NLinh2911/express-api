@@ -1,0 +1,34 @@
+[
+  {
+    "sender": "Anna",
+    "message": "why I lost messages"
+  },
+  {
+    "sender": "Anna",
+    "message": "really "
+  },
+  {
+    "sender": "Alex",
+    "message": "hi Anna checking server"
+  },
+  {
+    "sender": "Anna",
+    "message": "let's invite tim"
+  },
+  {
+    "sender": "Alex",
+    "message": "ok"
+  },
+  {
+    "sender": "Tim",
+    "message": "hi guyssss"
+  },
+  {
+    "sender": "Alex",
+    "message": "yooyyy Tim"
+  },
+  {
+    "sender": "Tim",
+    "message": "supp Alexxx"
+  }
+]
