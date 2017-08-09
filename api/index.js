@@ -1,9 +1,4 @@
 module.exports = function (express, app) {
-  app.use((req, res, next) => {
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-    next();
-  })
   const router = express.Router()
 
   const todos = require('./todos')(express)
@@ -12,6 +7,7 @@ module.exports = function (express, app) {
   // Add USERS Routes
   router.use(todos)
   router.use(todoMVC)
+
 
   return router
 }

@@ -15,9 +15,13 @@
   "author": "Linh Ngo",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.16.2",
     "bluebird": "^3.5.0",
     "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
     "express": "^4.15.3",
+    "express-graphql": "^0.6.7",
+    "graphql": "^0.10.5",
     "pg-monitor": "^0.8.2",
     "pg-promise": "^6.3.6",
     "socket.io": "^2.0.3"
